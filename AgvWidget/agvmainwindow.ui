@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AgvMainWindow</class>
+ <widget class="QMainWindow" name="AgvMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AgvMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QChartView" name="myChartView1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>750</width>
+      <height>550</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QChartView" name="myChartView2">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>60</y>
+      <width>750</width>
+      <height>550</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1_1">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>显示窗口一</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2_1">
+    <property name="geometry">
+     <rect>
+      <x>1410</x>
+      <y>10</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>显示窗口二</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox1">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>620</y>
+      <width>711</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>信号数据选择</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>661</width>
+       <height>88</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="curveCheckBox1_2">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="curveCheckBox1_3">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label1_5">
+        <property name="text">
+         <string>曲线4
+（黑色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QCheckBox" name="curveCheckBox1_4">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QComboBox" name="curveSelBox1_4">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QComboBox" name="curveSelBox1_1">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="curveCheckBox1_1">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="curveSelBox1_2">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label1_2">
+        <property name="text">
+         <string>曲线1
+（红色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label1_3">
+        <property name="text">
+         <string>曲线2
+（橙色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QComboBox" name="curveSelBox1_3">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label1_4">
+        <property name="text">
+         <string>曲线3
+（棕色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>620</y>
+      <width>711</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>信号数据选择</string>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>661</width>
+       <height>88</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="curveCheckBox2_2">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="curveCheckBox2_3">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QLabel" name="label2_5">
+        <property name="text">
+         <string>曲线4
+（黑色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QCheckBox" name="curveCheckBox2_4">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QComboBox" name="curveSelBox2_4">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QComboBox" name="curveSelBox2_1">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="curveCheckBox2_1">
+        <property name="layoutDirection">
+         <enum>Qt::RightToLeft</enum>
+        </property>
+        <property name="text">
+         <string>信号选通按钮</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="curveSelBox2_2">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label2_2">
+        <property name="text">
+         <string>曲线1
+（红色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label2_3">
+        <property name="text">
+         <string>曲线2
+（橙色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QComboBox" name="curveSelBox2_3">
+        <item>
+         <property name="text">
+          <string>Select</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>signal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>pos8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>vel8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>cur8</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label2_4">
+        <property name="text">
+         <string>曲线3
+（棕色）</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_6">
+    <property name="geometry">
+     <rect>
+      <x>855</x>
+      <y>120</y>
+      <width>201</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>显示格式</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label1_13">
+       <property name="text">
+        <string>Y轴最大值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="AxisYMax"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label1_14">
+       <property name="text">
+        <string>Y轴最小值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="AxisYMin"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label1_15">
+       <property name="text">
+        <string>网格</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="GridLine">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>显示</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>855</x>
+      <y>330</y>
+      <width>201</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>显示格式</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label2_15">
+       <property name="text">
+        <string>网格</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label2_13">
+       <property name="text">
+        <string>Y轴最大值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="AxisYMax_2"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label2_14">
+       <property name="text">
+        <string>Y轴最小值</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="GridLine_2">
+       <property name="layoutDirection">
+        <enum>Qt::RightToLeft</enum>
+       </property>
+       <property name="text">
+        <string>显示</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="AxisYMin_2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label1_6">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>70</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>窗口一设置</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2_6">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>290</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>窗口二设置</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>780</y>
+      <width>711</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>所有PID参数设置</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>571</width>
+       <height>129</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="2" column="4">
+       <widget class="QLineEdit" name="kpLineEdit2_2"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="kpLineEdit1_1"/>
+      </item>
+      <item row="0" column="4">
+       <widget class="QLabel" name="label2_11">
+        <property name="text">
+         <string>Kp</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label1_9">
+        <property name="text">
+         <string>电机3</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5">
+       <widget class="QLineEdit" name="kiLineEdit2_3"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLineEdit" name="kiLineEdit1_2"/>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLineEdit" name="kiLineEdit1_4"/>
+      </item>
+      <item row="4" column="5">
+       <widget class="QLineEdit" name="kiLineEdit2_4"/>
+      </item>
+      <item row="2" column="5">
+       <widget class="QLineEdit" name="kiLineEdit2_2"/>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLabel" name="label2_8">
+        <property name="text">
+         <string>电机6</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLineEdit" name="kpLineEdit2_3"/>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLineEdit" name="kpLineEdit2_4"/>
+      </item>
+      <item row="0" column="5">
+       <widget class="QLabel" name="label2_12">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>Ki</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="kpLineEdit1_3"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label1_7">
+        <property name="text">
+         <string>电机1</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label1_8">
+        <property name="text">
+         <string>电机2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label1_11">
+        <property name="text">
+         <string>Kp</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="kiLineEdit1_1"/>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="label2_10">
+        <property name="text">
+         <string>电机8</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QLineEdit" name="kpLineEdit2_1"/>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLineEdit" name="kiLineEdit1_3"/>
+      </item>
+      <item row="1" column="5">
+       <widget class="QLineEdit" name="kiLineEdit2_1"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLabel" name="label2_7">
+        <property name="text">
+         <string>电机5</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="kpLineEdit1_2"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label1_10">
+        <property name="text">
+         <string>电机4</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="kpLineEdit1_4"/>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label2_9">
+        <property name="text">
+         <string>电机7</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label1_12">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="text">
+         <string>Ki</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label0_2">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>70</y>
+       <width>72</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>点击发送</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>120</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>发送数据</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>550</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>状态切换</string>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>181</width>
+       <height>73</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="radioButtom0_1">
+        <property name="text">
+         <string>初始化</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QRadioButton" name="radioButtom0_2">
+        <property name="text">
+         <string>伺服开</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QRadioButton" name="radioButtom0_3">
+        <property name="text">
+         <string>电流环</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QRadioButton" name="radioButtom0_4">
+        <property name="text">
+         <string>速度环</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QRadioButton" name="radioButtom0_5">
+        <property name="text">
+         <string>位置环</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QRadioButton" name="radioButtom0_6">
+        <property name="text">
+         <string>伺服关</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label0_1">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>510</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AGV状态设置</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>780</y>
+      <width>711</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>期望值设置</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_10">
+     <item row="0" column="0">
+      <widget class="QGroupBox" name="groupBox_5">
+       <property name="title">
+        <string>周期选择</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="radioButtom0_7">
+          <property name="text">
+           <string>1秒</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="radioButtom0_8">
+          <property name="text">
+           <string>2秒</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QRadioButton" name="radioButtom0_9">
+          <property name="text">
+           <string>4秒</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QGroupBox" name="groupBox_8">
+       <property name="title">
+        <string>幅值设置</string>
+       </property>
+       <widget class="QLineEdit" name="ampLineEdit0_1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>90</y>
+          <width>102</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label0_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>如果是位置
+以度为单位</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QGroupBox" name="groupBox_9">
+       <property name="title">
+        <string>波形选择</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="radioButton_10">
+          <property name="text">
+           <string>正弦波</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="radioButtom0_11">
+          <property name="text">
+           <string>方波</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QGroupBox" name="groupBox_10">
+       <property name="title">
+        <string>发送期望</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label0_4">
+          <property name="text">
+           <string>确认发送</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="radioButtom0_12">
+          <property name="text">
+           <string>发送期望</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QListView</extends>
+   <header location="global">qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
